@@ -1,7 +1,8 @@
 public class simpleIf{
     public static void main(String args[]){
-        int age = 55;
-        if(age>=18)System.out.println("Elegible for Vote");
-        else System.out.println("Not Elegible for Vote");
+        //Even check
+        int number = 56;
+        if(number%2==0)System.out.println("Given Number is Even");
+        System.out.println("Number is: "+number);
     }
 }
