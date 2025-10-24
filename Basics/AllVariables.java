@@ -6,7 +6,7 @@ class AllVariables{
 	public static void main(String[] args){
 			int c=30;	 //Local Variable
 			AllVariables obj= new AllVariables();
-		System.out.println("Global Static variable: "+a);
+		System.out.println("Global Static variable: "+AllVariables.a); // Accessing Global static variable using class name
 		System.out.println("Global Non Static variable: "+obj.b);
 		System.out.println("Local variable: "+c);
 		
