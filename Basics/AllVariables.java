@@ -1,4 +1,4 @@
-// Create a Java Application where we have one class, it contains one local variable, one global static variable, and a non-static global variable then invoke all the variables under the main method.
+// Create a Java Application where we have one class, it contains one local variable, one global static variable, and a non-static global variable then invoke all the variables under the main method.
 
 class AllVariables{
 	static int a=10; //global static variable
