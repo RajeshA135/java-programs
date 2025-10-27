@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Example{
-	static boolean isEven(int a){
-		if(a%2==0){
+	static boolean isEven(int c){
+		if(c%2==0){
 			return true;
 			}
 		else{return false;}
