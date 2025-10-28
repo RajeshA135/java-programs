@@ -2,13 +2,12 @@
 
 import java.util.Scanner;
 class Example {
-			Scanner sc = new Scanner(System.in);
+			static Scanner sc = new Scanner(System.in); // we need to add static before the scanner class to access all methods 
 	int m1(String s){
 		System.out.println(s);
 		return sc.nextInt();
 	}
 	static float m2(boolean b){
-		Scanner sc = new Scanner(System.in); //Static method can't access above scanner class
 		System.out.println(b);
 		return sc.nextFloat();
 	}
