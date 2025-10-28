@@ -2,13 +2,14 @@
 
 import java.util.Scanner;
 class Example{
+		Scanner sc= new Scanner(System.in);
 	boolean m1(char ch){
-		return true;
+		System.out.println(ch);
+		return sc.nextBoolean();
 		}
 	public static void main(String[] args){
 			Scanner sc= new Scanner(System.in);
-			char ch=sc.next().charAt(0);
 			Example obj = new Example();
-			System.out.print(obj.m1(ch));
+			System.out.println(obj.m1(sc.next().charAt(0)));
 			}
 	}
