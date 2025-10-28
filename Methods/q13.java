@@ -2,25 +2,26 @@
 
 import java.util.Scanner;
 class Example {
+			Scanner sc = new Scanner(System.in);
 	int m1(String s){
-		return 5;
+		System.out.println(s);
+		return sc.nextInt();
 	}
 	static float m2(boolean b){
-		return 3.14f;
+		Scanner sc = new Scanner(System.in); //Static method can't access above scanner class
+		System.out.println(b);
+		return sc.nextFloat();
 	}
 	double m3(char ch){
-		return 56342.3423;
+		System.out.println(ch);
+		return sc.nextDouble();
 	}
 	public static void main(String[] args){
 		Scanner sc= new Scanner(System.in);
-		String s = sc.next();
-		boolean b = sc.nextBoolean();
-		char ch= sc.next().charAt(0);
-		
-
 		Example obj= new Example();
-		System.out.println(obj.m1(s));
-		System.out.println(m2(b));
-		System.out.println(obj.m3(ch));
+
+		System.out.println(obj.m1(sc.next()));
+		System.out.println(m2(sc.nextBoolean()));
+		System.out.println(obj.m3(sc.next().charAt(0)));
 	}
-}
+}	
