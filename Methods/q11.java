@@ -25,21 +25,13 @@ class Example{
 
 	public static void main(String[] args){
 			Scanner sc= new Scanner(System.in);
-			boolean b = sc.nextBoolean();
-			char ch= sc.next().charAt(0);
-			double d=sc.nextDouble();
-			long l= sc.nextLong();
-			float f = sc.nextFloat();
-			String s= sc.next();
-			
-			
 			Example obj = new Example();
 			
-			System.out.println(Example.m1(b));
-			System.out.println(obj.m2(ch));
-			System.out.println(Example.m3(d));
-			System.out.println(obj.m4(l));
-			System.out.println(Example.m5(f));
-			System.out.println(obj.m6(s));
+			System.out.println(Example.m1(sc.nextBoolean()));
+			System.out.println(obj.m2(sc.next().charAt(0)));
+			System.out.println(Example.m3(sc.nextDouble()));
+			System.out.println(obj.m4(sc.nextLong()));
+			System.out.println(Example.m5(sc.nextFloat()));
+			System.out.println(obj.m6(sc.next()));
 			}
 	}
