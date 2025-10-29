@@ -10,13 +10,11 @@ class Example{
 		}
 		public static void main(String[] args){
 			Scanner sc= new Scanner(System.in);
-			int a=sc.nextInt();			
-			float f = sc.nextFloat();
-
-			
 			Example obj = new Example();
-			System.out.println(obj.m1(a));
-			System.out.println(Example.m2(f));
+
+
+			System.out.println(obj.m1(sc.nextInt()));
+			System.out.println(Example.m2( sc.nextFloat()));
 			
 			}
 	}
