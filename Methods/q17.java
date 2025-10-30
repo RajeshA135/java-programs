@@ -10,8 +10,7 @@ class Example{
 		return num1-num2;
 		}
 	int multi(){
-		int result= add(sc.nextInt(),sc.nextInt()) * sub(sc.nextInt(),sc.nextInt());
-		return result; 
+		return add(sc.nextInt(),sc.nextInt()) * sub(sc.nextInt(),sc.nextInt());
 		}
 	public static void main(String args[]){
 			Example e =  new Example();
