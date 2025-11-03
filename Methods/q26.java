@@ -4,9 +4,9 @@ import java.util.Scanner;
 	class Example{
 		static Scanner sc = new Scanner(System.in);
 		static Example e = new Example();
-		int a=sc.nextInt();
+		static int a=sc.nextInt();
 		static int m1(){
-		return e.a;
+		return a;
 			}
 		void m2(boolean b){
 		System.out.println(b);
