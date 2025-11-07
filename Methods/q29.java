@@ -20,6 +20,6 @@ static Example obj = new Example();
 	System.out.println(obj.c);}
 	public static void main(String[] args){
 		obj.m1();
-		Example.m2();
+		Example.m2();	//calling static method with class name
 		}
 	}
