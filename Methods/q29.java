@@ -18,8 +18,12 @@ static Example obj = new Example();
 	System.out.println(obj.a);
 	System.out.println(obj.b);
 	System.out.println(obj.c);}
+	static int m3(int b){
+		return b;
+		}
 	public static void main(String[] args){
 		obj.m1();
 		Example.m2();	//calling static method with class name
-		}
+		System.out.println(Example.m3(obj.b));	
+	}
 	}
