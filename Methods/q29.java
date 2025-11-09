@@ -24,6 +24,6 @@ static Example obj = new Example();
 	public static void main(String[] args){
 		obj.m1();
 		Example.m2();	//calling static method with class name
-		System.out.println(Example.m3(obj.b));	
+		System.out.println(Example.m3(obj.b)); // calling and printing 
 	}
 	}
